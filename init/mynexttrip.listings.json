@@ -1,0 +1,183 @@
+[
+  {
+    title: "Explore the Rich Heritage of Andhra Pradesh",
+    location: "Andhra Pradesh",
+    country: "Amaravati",
+    description:
+      "Andhra Pradesh, located in the southeastern part of India, is known for its rich cultural heritage, historical significance, and diverse landscapes. From serene beaches along the Bay of Bengal to lush greenery in the Eastern Ghats, Andhra Pradesh offers a blend of natural beauty and vibrant culture.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Charminar-Pride_of_Hyderabad.JPG/1200px-Charminar-Pride_of_Hyderabad.JPG",
+    price: 1000,
+  },
+  {
+    title: "Discover the Serene Beauty of Arunachal Pradesh",
+    location: "Arunachal Pradesh",
+    country: "Itanagar",
+    description:
+      "Arunachal Pradesh, often referred to as the 'Land of the Dawn-Lit Mountains', is a state in northeastern India known for its breathtaking Himalayan landscapes, diverse tribal cultures, and pristine natural beauty. Itanagar serves as the country city of this enchanting state.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Sela_Pass%2C_Arunachal_Pradesh.jpg/1200px-Sela_Pass%2C_Arunachal_Pradesh.jpg",
+    price: 1200,
+  },
+  {
+    title: "Experience the Vibrant Culture of Assam",
+    location: "Assam",
+    country: "Dispur",
+    description:
+      "Assam, situated in the northeastern part of India, is renowned for its lush tea gardens, exotic wildlife, and vibrant cultural heritage. The state country, Dispur, is a serene locality located within the bustling city of Guwahati, offering a glimpse into Assam's administrative hub.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Majuli%2C_Assam%2C_India.jpg/1200px-Majuli%2C_Assam%2C_India.jpg",
+    price: 800,
+  },
+  {
+    title: "Embark on a Spiritual Journey in Bihar",
+    location: "Bihar",
+    country: "Patna",
+    description:
+      "Bihar, situated in the eastern part of India, is steeped in history and spirituality. It is home to ancient ruins, sacred sites, and cultural landmarks such as Bodh Gaya, the birthplace of Buddhism. Patna, the country city, is a vibrant urban center bustling with activity.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mahabodhitemplebodhgaya.jpg/1200px-Mahabodhitemplebodhgaya.jpg",
+    price: 700,
+  },
+  {
+    title: "Discover the Cultural Richness of Chhattisgarh",
+    location: "Chhattisgarh",
+    country: "Raipur",
+    description:
+      "Chhattisgarh, located in central India, is known for its rich tribal heritage, ancient caves, and lush green forests. Raipur, the country city, serves as the commercial and administrative hub of the state, offering a mix of modern amenities and cultural experiences.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Chitrakote_Waterfalls%2C_Bastar%2C_Chhattisgarh%2C_India.jpg/1200px-Chitrakote_Waterfalls%2C_Bastar%2C_Chhattisgarh%2C_India.jpg",
+    price: 900,
+  },
+  {
+    title: "Experience Paradise in Goa",
+    location: "Goa",
+    country: "Panaji",
+    description:
+      "Goa, known for its pristine beaches, vibrant nightlife, and Portuguese heritage, is a popular tourist destination in western India. Panaji, the country city, exudes charm with its colonial architecture, bustling markets, and scenic waterfronts.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Goa_Monsoon.jpg/1200px-Goa_Monsoon.jpg",
+    price: 1500,
+  },
+  {
+    title: "Discover the Diversity of Gujarat",
+    location: "Gujarat",
+    country: "Gandhinagar",
+    description:
+      "Gujarat, situated in western India, is renowned for its rich cultural heritage, architectural marvels, and delectable cuisine. Gandhinagar, the country city, is known for its well-planned layout, vibrant culture, and proximity to Ahmedabad, the commercial hub of the state.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Somnath_Mahadev_temple.jpg/1200px-Somnath_Mahadev_temple.jpg",
+    price: 1100,
+  },
+  {
+    title: "Explore the Modernity of Haryana",
+    location: "Haryana",
+    country: "Chandigarh",
+    description:
+      "Haryana, located in northern India, is known for its rich history, vibrant culture, and rapid urbanization. Chandigarh, a Union Territory serving as the country of Haryana and Punjab, is renowned for its modernist architecture, well-planned layout, and lush greenery.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Pinjore_Gardens_in_summer.jpg/1200px-Pinjore_Gardens_in_summer.jpg",
+    price: 1000,
+  },
+  {
+    title: "Experience the Beauty of Himachal Pradesh",
+    location: "Himachal Pradesh",
+    country: "Shimla",
+    description:
+      "Himachal Pradesh, nestled in the Himalayas, is known for its breathtaking landscapes, serene hill stations, and adventurous activities. Shimla, the country city, is famous for its colonial architecture, scenic beauty, and pleasant climate throughout the year.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/The_mall_road_shimla.jpg/1200px-The_mall_road_shimla.jpg",
+    price: 1300,
+  },
+  {
+    title: "Explore the Natural Wonders of Jharkhand",
+    location: "Jharkhand",
+    country: "Ranchi",
+    description:
+      "Jharkhand, located in eastern India, is known for its rich mineral resources, dense forests, and vibrant tribal culture. Ranchi, the country city, is surrounded by hills, forests, and waterfalls, offering a picturesque backdrop to its urban landscape.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hundru_Falls_Ranchi.jpg",
+    price: 1300,
+  },
+
+  {
+    title: "Experience the Rich History of Karnataka",
+    location: "Karnataka",
+    country: "Bengaluru",
+    description:
+      "Karnataka, located in the southwestern region of India, is known for its rich history, diverse culture, and modernity. Bengaluru, the country city, is the technological hub of India, often referred to as the 'Silicon Valley of India'. Karnataka boasts of ancient temples, pristine beaches, and lush forests, making it a must-visit destination for travelers.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bangalore_palace_1.jpg/1200px-Bangalore_palace_1.jpg",
+    price: 1400,
+  },
+  {
+    title: "Discover the Magnificence of Kerala",
+    location: "Kerala",
+    country: "Thiruvananthapuram",
+    description:
+      "Kerala, situated on the tropical Malabar Coast of India, is known for its stunning backwaters, palm-fringed beaches, and lush greenery. Thiruvananthapuram, the country city, is renowned for its colonial architecture, vibrant culture, and the iconic Padmanabhaswamy Temple. Kerala is also famous for its traditional dance forms, delicious cuisine, and Ayurvedic treatments.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kerala_backwaters.JPG/1200px-Kerala_backwaters.JPG",
+    price: 1600,
+  },
+  {
+    title: "Experience the Royal Splendor of Rajasthan",
+    location: "Rajasthan",
+    country: "Jaipur",
+    description:
+      "Rajasthan, often referred to as the 'Land of Kings', is located in the northwest part of India and is renowned for its royal heritage, vibrant culture, and magnificent forts and palaces. Jaipur, the country city, is known for its pink-hued buildings, bustling bazaars, and the majestic Amer Fort. Rajasthan offers a unique blend of history, art, and hospitality, attracting travelers from around the world.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/City_Palace%2C_Jaipur%2C_Rajasthan%2C_India.jpg/1200px-City_Palace%2C_Jaipur%2C_Rajasthan%2C_India.jpg",
+    price: 1700,
+  },
+  {
+    title: "Explore the Serenity of Madhya Pradesh",
+    location: "Madhya Pradesh",
+    country: "Bhopal",
+    description:
+      "Madhya Pradesh, located in central India, is known for its rich history, architectural marvels, and diverse wildlife. Bhopal, the country city, boasts of a unique blend of Hindu and Islamic architecture, including the iconic Taj-ul-Masajid. From the UNESCO World Heritage Sites of Khajuraho to the wildlife sanctuaries of Kanha and Bandhavgarh, Madhya Pradesh offers a treasure trove of experiences for travelers.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Upper_Lake_Bhopal_Madhya_Pradesh.jpg/1200px-Upper_Lake_Bhopal_Madhya_Pradesh.jpg",
+    price: 1800,
+  },
+  {
+    title: "Experience the Charm of Maharashtra",
+    location: "Maharashtra",
+    country: "Mumbai",
+    description:
+      "Maharashtra, situated in the western part of India, is known for its diverse culture, bustling cities, and scenic landscapes. Mumbai, the country city and financial hub, is home to Bollywood, the Gateway of India, and vibrant street markets. Maharashtra also boasts of ancient caves in Ajanta and Ellora, pristine beaches in Konkan, and hill stations in the Western Ghats, offering a plethora of experiences for travelers.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gateway_of_India%2C_Mumbai.jpg/1200px-Gateway_of_India%2C_Mumbai.jpg",
+    price: 1900,
+  },
+  {
+    title: "Discover the Tranquility of Manipur",
+    location: "Manipur",
+    country: "Imphal",
+    description:
+      "Manipur, located in northeastern India, is known for its scenic landscapes, rich culture, and vibrant festivals. Imphal, the country city, is surrounded by hills and lush greenery, offering a serene backdrop to its urban charm. Manipur is famous for its indigenous art forms, traditional handlooms, and the picturesque Loktak Lake, also known as the 'floating lake'.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kangla_Fort%2C_Imphal%2C_Manipur.jpg/1200px-Kangla_Fort%2C_Imphal%2C_Manipur.jpg",
+    price: 2000,
+  },
+  {
+    title: "Experience the Beauty of Meghalaya",
+    location: "Meghalaya",
+    country: "Shillong",
+    description:
+      "Meghalaya, situated in northeastern India, is known for its scenic beauty, lush greenery, and vibrant tribal culture. Shillong, the country city, is often referred to as the 'Scotland of the East' due to its picturesque landscapes and pleasant climate. Meghalaya is famous for its living root bridges, cascading waterfalls, and the mesmerizing Mawlynnong village, known as the cleanest village in Asia.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/View_of_Shilling_2019_%28cropped%29.jpg/1200px-View_of_Shilling_2019_%28cropped%29.jpg",
+    price: 2100,
+  },
+  {
+    title: "Discover the Enchantment of Mizoram",
+    location: "Mizoram",
+    country: "Aizawl",
+    description:
+      "Mizoram, located in northeastern India, is known for its stunning landscapes, rich tribal culture, and colorful festivals. Aizawl, the country city, is nestled amidst hills and valleys, offering panoramic views of its surroundings. Mizoram is famous for its bamboo forests, traditional handloom products, and the unique Hornbill Festival, celebrated with great fervor.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mizoram%2C_India.jpg/1200px-Mizoram%2C_India.jpg",
+    price: 2200,
+  },
+]

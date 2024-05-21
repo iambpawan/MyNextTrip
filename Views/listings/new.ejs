@@ -1,0 +1,93 @@
+<% layout("/layouts/bolierplate"); %>
+
+<body>
+  
+<div class="offset-2">
+  <h3>Create a New Listing</h3>
+    <form class="row g-3 needs-validation" method="POST" action="/listings" novalidate>
+    <div class="col-md-8">
+      <label for="title" class="form-label">Title</label>
+      <input
+        name="listing[title]"
+        type="text"
+        class="form-control"
+        placeholder="enter title"
+        id="title"
+        required
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter Title. </div>
+    </div>
+    <div class="col-md-8">
+      <label for="description" class="form-label">Description</label>
+      <input
+        name="listing[description]"
+        type="text"
+        placeholder="enter description"
+        class="form-control"
+        id="description"
+        required
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter description. </div>
+    </div>
+    <div class="col-8">
+      <label for="image" class="form-label">Image</label>
+      <input
+        name="listing[image]"
+        placeholder="enter image URL/Link"
+        type="text"
+        class="form-control"
+        id="image"
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter description. </div>
+    </div>
+    <div class="col-8">
+      <!-- type="number" -->
+      <label for="price" class="form-label">Price</label>
+      <input
+        name="listing[price]"
+        placeholder="enter price"
+        
+        class="form-control"
+        id="price"
+        required
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter description. </div>
+    </div>
+    <div class="col-md-6">
+      <label for="country" class="form-label">Country</label>
+      <input
+        name="listing[country]"
+        placeholder="enter country"
+        type="text"
+        class="form-control"
+        id="country"
+        required
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter country. </div>
+    </div>
+    <div class="col-md-2">
+      <label for="location" class="form-label">Location</label>
+      <input
+        name="listing[location]"
+        placeholder="enter location"
+        type="text"
+        class="form-control"
+        id="location"
+        required
+      />
+      <div class="valid-feedback"> Looks good!    </div>
+      <div class="invalid-feedback"> Please enter location. </div>
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+  </form>
+</div>
+<!-- <script src="/js/script.js"></script> -->
+</body>

@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #f8f9fa;
+}
+
+.fa-compass {
+  color: #428afe;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.fotter-p {
+  background-color: #f8f9fa !important;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+  
+}
+.container{
+    flex: 1;
+}
+
+.text-body-secondary{
+    color: #222222bf;
+}
+
+/* card */
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 2.7rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+
+}
+.Card-a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.Card-a img {
+    display: block;
+    transition: transform 1s ease;
+}
+
+.Card-a img:hover {
+    transform: scale(0.7); /* Enlarge the image on hover */
+    /* border-radius: 20px;  */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    color: inherit;
+    
+}
+
+/* .Card-a img:hover { */
+     /* Add shadow on hover */
+/* } */
+
+/* card-img-top */
+
+.cardshow{
+    height: 20rem !important;
+    width: 50rem !important;
+}
