@@ -37,6 +37,11 @@ router.get(
     console.log("get the data of " + id);
     const listing = await Listing.findById(id).populate("reviews");
     console.log("data retrived");
+    if(!listing){
+        req.flash("error","Lising you are trying to reach dosn't exits");
+        res.redirect("/listings");
+      }
+
     res.render("listings/show.ejs", { listing });
   })
 );
@@ -49,6 +54,7 @@ router.post(
     const newlisting = new Listing(req.body.listing);
     console.log(newlisting);
     await newlisting.save();
+    req.flash("success","New Listing is Created!!");
     res.redirect("listings");
   })
 );
@@ -59,6 +65,10 @@ router.get(
     let { id } = req.params;
     console.log(id);
     const listing = await Listing.findById(id);
+    if(!listing){
+      req.flash("error","Lising you are trying to reach dosn't exits");
+      res.redirect("/listings");
+    }
     res.render("listings/edit.ejs", { listing });
   })
 );
@@ -72,6 +82,7 @@ router.put(
     }
     let { id } = req.params;
     await Listing.findByIdAndUpdate(id, { ...req.body.listing });
+    req.flash("success","Listing is Updated!");
     res.redirect(`/listings/${id}`);
   })
 );
@@ -82,6 +93,7 @@ router.delete(
     let { id } = req.params;
     let deletedlisting = await Listing.findByIdAndDelete(id);
     console.log(deletedlisting);
+    req.flash("success","Listing is Deleted!");
     res.redirect("/listings");
   })
 );

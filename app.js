@@ -7,10 +7,17 @@ const methodOverride = require("method-override");
 const ejsmate = require("ejs-mate");
 const session=require("express-session");
 // const wrapAsync = require("./Utils/wrapAsync.js");
-const ExpressError = require("./Utils/ExpressError.js");
 const flash= require("connect-flash")
-const listenings=require("./routes/listing.js");
-const reviews=require("./routes/review.js");
+const passport=require("passport");
+const LocalStrategy=require("passport-local");
+
+const User=require("./Models/user.js");
+const ExpressError = require("./Utils/ExpressError.js");
+
+
+const listenigRouter=require("./routes/listing.js");
+const reviewRouter=require("./routes/review.js");
+const userRouter=require("./routes/user.js");
 
 const MONGO_URL = "mongodb://localhost:27017/mynexttrip";
 
@@ -40,6 +47,11 @@ app.use(express.static(path.join(__dirname, "/Public")));
 // }
 
 
+app.get("/", (req, res) => {
+  res.send("working ");
+});
+
+
 app.set('trust proxy', 1); // trust first proxy
 app.use(session({
   secret: 'keyboard cat',
@@ -53,17 +65,34 @@ app.use(session({
    }
 }));
 
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
+
 app.use(flash());
 
-
-app.get("/", (req, res) => {
-  res.send("working ");
+app.use((req,res,next)=>{
+  res.locals.success=req.flash("success");
+  res.locals.error=req.flash("error");
+  next();
 });
 
+// app.get("/demouser",async(req,res)=>{
+//   let fakeUser=new User({
+//     email:"studenet@gmail.com",
+//     username:"pavan"
+//   });
+//   let registeredUser=await User.register(fakeUser,"helloworld");
+//   res.send(registeredUser);
+// })
 
-app.use("/listings",listenings);
-app.use("/listings/:id/reviews",reviews)
 
+app.use("/listings",listenigRouter);
+app.use("/listings/:id/reviews",reviewRouter);
+app.use("/",userRouter);
 
 
 app.all("*", (req, res, next) => {
