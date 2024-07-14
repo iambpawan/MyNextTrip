@@ -5,9 +5,10 @@ const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");
 const ejsmate = require("ejs-mate");
+const session=require("express-session");
 // const wrapAsync = require("./Utils/wrapAsync.js");
 const ExpressError = require("./Utils/ExpressError.js");
-
+const flash= require("connect-flash")
 const listenings=require("./routes/listing.js");
 const reviews=require("./routes/review.js");
 
@@ -37,6 +38,24 @@ app.use(express.static(path.join(__dirname, "/Public")));
 //     fn(req,res,next).catch((err)=>next(err));
 //   }
 // }
+
+
+app.set('trust proxy', 1); // trust first proxy
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { 
+    exprires: Date.now()+7*24*60*60*1000,
+    maxAge: 7*24*60*60*1000,
+    httpOnly: true 
+    
+   }
+}));
+
+app.use(flash());
+
+
 app.get("/", (req, res) => {
   res.send("working ");
 });
