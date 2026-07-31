@@ -67,7 +67,9 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
-passport.use(new LocalStrategy(User.authenticate()));
+// The login form posts "Username" (capital U), but passport-local defaults to
+// "username", so every login failed with "Missing credentials".
+passport.use(new LocalStrategy({ usernameField: "Username" }, User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
